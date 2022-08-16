@@ -1,0 +1,23 @@
+create array of random words
+create a randomier getter to get random word from array
+
+game start
+create a while loop that checks while game is still running
+things to check
+
+if health > 0
+if word has not been guessed yet
+something like
+while isInGame is true
+guess letter
+if health <= 0
+    then isInGame = false
+if word has been guessed
+    then isInGame = false
+
+
+when guessing a letter
+check if the word contains that letter
+if false remove 1 health
+if true get position of all the letters in that word
+replace missing letters for those letters
